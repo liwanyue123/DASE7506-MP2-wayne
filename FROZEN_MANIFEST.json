@@ -1,0 +1,14 @@
+{
+  "frozen_before_test": true,
+  "freeze_date": "2026-10-26",
+  "files": {
+    "code/submission.py": "253648681824dd626f45a0b9e9ae78e31f5ecbd09a72550b328f1cc18b5dbbf4",
+    "code/features.py": "227cb838e593b35b7860c0c70f23536bb550590fe0e9eb8edfd1e8c466e70d87",
+    "code/artifacts/final/model.npz": "cef037b455173dd3b5c833d49327122c50c8187e473790c88e2bca6ef8cbd764",
+    "code/artifacts/final/config.json": "40da7a49e416cec86571ca9938e2d750ec192a3e3bf3ba3085f233dd3da08d4f"
+  },
+  "post_freeze_evidence": {
+    "code/results/final-test-predictions.json": "acc9316cb1b961511d6ca22f122100e561a72284fcac10e9b66cda2c9838f1b9",
+    "code/results/final-test-score.json": "8caef4c5640878868450f5495ed3c913e1cadd051c040111fe4e9ad605211fed"
+  }
+}

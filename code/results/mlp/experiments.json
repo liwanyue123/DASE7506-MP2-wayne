@@ -1,0 +1,69 @@
+{
+  "seed": 7546,
+  "fit_split": "train",
+  "selection_split": "validation",
+  "training_device": "cpu",
+  "internal_fit_questions": 1690,
+  "internal_dev_questions": 424,
+  "experiments": [
+    {
+      "name": "context_tanh_32",
+      "width": 32,
+      "activation": "tanh",
+      "relative": true,
+      "descriptors": false,
+      "epochs": 20,
+      "internal_dev_accuracy": 74.76415094339622,
+      "validation_accuracy": 92.10526315789474,
+      "fit_seconds": 3.0324547979980707
+    },
+    {
+      "name": "context_tanh_64",
+      "width": 64,
+      "activation": "tanh",
+      "relative": true,
+      "descriptors": false,
+      "epochs": 80,
+      "internal_dev_accuracy": 75.94339622641509,
+      "validation_accuracy": 92.23057644110276,
+      "fit_seconds": 6.0996395237743855
+    },
+    {
+      "name": "context_relu_64",
+      "width": 64,
+      "activation": "relu",
+      "relative": true,
+      "descriptors": false,
+      "epochs": 45,
+      "internal_dev_accuracy": 75.94339622641509,
+      "validation_accuracy": 90.1002506265664,
+      "fit_seconds": 4.422328120097518
+    },
+    {
+      "name": "context_descriptor_tanh_64",
+      "width": 64,
+      "activation": "tanh",
+      "relative": true,
+      "descriptors": true,
+      "epochs": 100,
+      "internal_dev_accuracy": 79.95283018867924,
+      "validation_accuracy": 93.734335839599,
+      "fit_seconds": 14.772418884560466
+    }
+  ],
+  "selected": {
+    "name": "context_descriptor_tanh_64",
+    "width": 64,
+    "activation": "tanh",
+    "relative": true,
+    "descriptors": true,
+    "epochs": 100,
+    "internal_dev_accuracy": 79.95283018867924,
+    "validation_accuracy": 93.734335839599,
+    "fit_seconds": 14.772418884560466
+  },
+  "asset_bytes": 549592,
+  "total_wall_seconds": 36.449566243216395,
+  "test_accessed": false,
+  "gpu_used": false
+}

@@ -1,0 +1,48 @@
+{
+  "inference": {
+    "server_cpu": "Intel Xeon Platinum 8458P",
+    "server_gpu_present_but_disabled": "NVIDIA H800",
+    "thread_limit": 4,
+    "cuda_visible_devices": "",
+    "validation": {
+      "questions": 798,
+      "prediction_and_scoring_wall_seconds": 1.610,
+      "user_seconds": 3.976,
+      "system_seconds": 0.097,
+      "correct": 754,
+      "accuracy": 94.48621553884712
+    },
+    "test": {
+      "questions": 467,
+      "prediction_and_scoring_wall_seconds": 1.080,
+      "user_seconds": 3.276,
+      "system_seconds": 0.097,
+      "correct": 395,
+      "accuracy": 84.58244111349036
+    },
+    "asset_bytes": 1366950,
+    "asset_mib": 1.3036251068115234,
+    "asset_limit_bytes": 16777216,
+    "runtime_dependencies": ["numpy"]
+  },
+  "training": {
+    "device": "CPU only",
+    "gpu_used": false,
+    "threads": 4,
+    "measured_script_seconds": {
+      "linear_search": 20.76388330700138,
+      "lexical_ablation": 14.52019723400008,
+      "fixed_random_features": 13.637170832000265,
+      "tree_ablation": 236.58285783790052,
+      "mlp_architecture_search": 36.449566243216395,
+      "mlp_seed_stability": 34.13919966109097
+    },
+    "python": "3.12",
+    "server_packages": {
+      "numpy": "2.3.2",
+      "torch": "2.8.0+cu128 (CPU execution)",
+      "scikit-learn": "1.7.2",
+      "catboost": "1.2.10"
+    }
+  }
+}

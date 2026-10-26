@@ -1,0 +1,28 @@
+{
+  "version": "independent-selector-v2",
+  "linear_modes": [
+    "raw",
+    "descriptors"
+  ],
+  "linear_component_weights": [
+    0.6666666666666666,
+    0.3333333333333333
+  ],
+  "linear_weight": 0.55,
+  "mlp_weight": 0.45,
+  "mlp_members": 5,
+  "mlp_seeds": [
+    7550,
+    7551,
+    7552,
+    7553,
+    7554
+  ],
+  "mlp_activation": "tanh",
+  "mlp_relative_embeddings": true,
+  "mlp_descriptors": true,
+  "answer_support_bonus": 0.1,
+  "fit_split": "train",
+  "selection_split": "validation",
+  "test_accessed_at_freeze": false
+}

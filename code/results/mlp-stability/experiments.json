@@ -1,0 +1,52 @@
+{
+  "seeds": [
+    7550,
+    7551,
+    7552,
+    7553,
+    7554
+  ],
+  "specification": {
+    "name": "context_descriptor_tanh_64",
+    "width": 64,
+    "activation": "tanh",
+    "relative": true,
+    "descriptors": true
+  },
+  "epochs": 100,
+  "experiments": [
+    {
+      "seed": 7550,
+      "validation_accuracy": 93.48370927318295,
+      "fit_seconds": 4.4064398445189
+    },
+    {
+      "seed": 7551,
+      "validation_accuracy": 93.23308270676691,
+      "fit_seconds": 3.4844768531620502
+    },
+    {
+      "seed": 7552,
+      "validation_accuracy": 93.35839598997494,
+      "fit_seconds": 3.428481299430132
+    },
+    {
+      "seed": 7553,
+      "validation_accuracy": 93.35839598997494,
+      "fit_seconds": 3.2556106857955456
+    },
+    {
+      "seed": 7554,
+      "validation_accuracy": 93.734335839599,
+      "fit_seconds": 3.215643335133791
+    }
+  ],
+  "mean_single_model_accuracy": 93.43358395989975,
+  "standard_deviation": 0.1699832075971267,
+  "seed_ensemble_accuracy": 93.734335839599,
+  "asset_bytes": 2747960,
+  "total_wall_seconds": 34.13919966109097,
+  "training_device": "cpu",
+  "gpu_used": false,
+  "test_accessed": false
+}

@@ -1,0 +1,44 @@
+{
+  "decision": "freeze before any test-reference access",
+  "configuration": {
+    "version": "independent-selector-v2",
+    "linear_modes": [
+      "raw",
+      "descriptors"
+    ],
+    "linear_component_weights": [
+      0.6666666666666666,
+      0.3333333333333333
+    ],
+    "linear_weight": 0.55,
+    "mlp_weight": 0.45,
+    "mlp_members": 5,
+    "mlp_seeds": [
+      7550,
+      7551,
+      7552,
+      7553,
+      7554
+    ],
+    "mlp_activation": "tanh",
+    "mlp_relative_embeddings": true,
+    "mlp_descriptors": true,
+    "answer_support_bonus": 0.1,
+    "fit_split": "train",
+    "selection_split": "validation",
+    "test_accessed_at_freeze": false
+  },
+  "validation_expected_correct_before_float16_check": 754,
+  "validation_expected_accuracy": 94.48621553884712,
+  "linear_baseline_correct": 749,
+  "linear_baseline_accuracy": 93.85964912280701,
+  "mlp_seed_mean_single_accuracy": 93.43358395989975,
+  "inference_asset_bytes": 1366950,
+  "inference_asset_mib": 1.3036251068115234,
+  "rejected_auxiliaries": {
+    "lexical": "no validation gain over the linear baseline",
+    "trees": "one extra validation correction did not justify runtime complexity",
+    "fixed_random_features": "smaller and less stable gain than the seed-averaged MLP"
+  },
+  "test_accessed": false
+}

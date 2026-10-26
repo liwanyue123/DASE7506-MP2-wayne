@@ -1,0 +1,10 @@
+{
+  "batch_independent": true,
+  "question_order_independent": true,
+  "candidate_permutation_equivariant": true,
+  "ids_ignored": true,
+  "empty_bank_supported": true,
+  "asset_bytes": 1366950,
+  "asset_limit_bytes": 16777216,
+  "test_references_accessed": false
+}

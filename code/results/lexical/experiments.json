@@ -1,0 +1,33 @@
+{
+  "seed": 7516,
+  "fit_split": "train",
+  "selection_split": "validation",
+  "dimension": 65536,
+  "training_pairs": 6516,
+  "experiments": [
+    {
+      "epochs": 2,
+      "validation_accuracy": 83.95989974937343,
+      "fit_seconds": 1.1513650540000526
+    },
+    {
+      "epochs": 5,
+      "validation_accuracy": 84.46115288220551,
+      "fit_seconds": 1.655576368997572
+    },
+    {
+      "epochs": 10,
+      "validation_accuracy": 83.95989974937343,
+      "fit_seconds": 2.4995128770024166
+    },
+    {
+      "epochs": 20,
+      "validation_accuracy": 84.08521303258145,
+      "fit_seconds": 4.25904890899983
+    }
+  ],
+  "selected_epochs": 5,
+  "asset_bytes": 262942,
+  "total_wall_seconds": 14.52019723400008,
+  "test_accessed": false
+}

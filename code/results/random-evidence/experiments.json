@@ -1,0 +1,113 @@
+{
+  "seed": 7526,
+  "fit_split": "train",
+  "selection_split": "validation",
+  "projection_dimensions": 256,
+  "experiments": [
+    {
+      "kind": "relu",
+      "regularization": 0.001,
+      "validation_accuracy": 87.96992481203007,
+      "fit_seconds": 0.3836197260025074
+    },
+    {
+      "kind": "relu",
+      "regularization": 0.003,
+      "validation_accuracy": 88.09523809523809,
+      "fit_seconds": 0.42857823300073505
+    },
+    {
+      "kind": "relu",
+      "regularization": 0.01,
+      "validation_accuracy": 88.22055137844612,
+      "fit_seconds": 1.4416729879994818
+    },
+    {
+      "kind": "relu",
+      "regularization": 0.03,
+      "validation_accuracy": 89.3483709273183,
+      "fit_seconds": 1.081407286998001
+    },
+    {
+      "kind": "tanh",
+      "regularization": 0.001,
+      "validation_accuracy": 88.34586466165413,
+      "fit_seconds": 4.0545340520002355
+    },
+    {
+      "kind": "tanh",
+      "regularization": 0.003,
+      "validation_accuracy": 88.97243107769424,
+      "fit_seconds": 1.233386933003203
+    },
+    {
+      "kind": "tanh",
+      "regularization": 0.01,
+      "validation_accuracy": 89.09774436090225,
+      "fit_seconds": 0.6638402530006715
+    },
+    {
+      "kind": "tanh",
+      "regularization": 0.03,
+      "validation_accuracy": 89.22305764411027,
+      "fit_seconds": 0.38844025200160104
+    },
+    {
+      "kind": "cosine",
+      "regularization": 0.001,
+      "validation_accuracy": 87.84461152882206,
+      "fit_seconds": 0.31097048000083305
+    },
+    {
+      "kind": "cosine",
+      "regularization": 0.003,
+      "validation_accuracy": 88.22055137844612,
+      "fit_seconds": 0.19207983299929765
+    },
+    {
+      "kind": "cosine",
+      "regularization": 0.01,
+      "validation_accuracy": 88.22055137844612,
+      "fit_seconds": 0.24675542800105177
+    },
+    {
+      "kind": "cosine",
+      "regularization": 0.03,
+      "validation_accuracy": 89.59899749373433,
+      "fit_seconds": 0.2186246819983353
+    },
+    {
+      "kind": "interaction",
+      "regularization": 0.001,
+      "validation_accuracy": 87.84461152882206,
+      "fit_seconds": 0.2884231969983375
+    },
+    {
+      "kind": "interaction",
+      "regularization": 0.003,
+      "validation_accuracy": 88.47117794486216,
+      "fit_seconds": 0.38783241599958274
+    },
+    {
+      "kind": "interaction",
+      "regularization": 0.01,
+      "validation_accuracy": 88.7218045112782,
+      "fit_seconds": 0.8051161389994377
+    },
+    {
+      "kind": "interaction",
+      "regularization": 0.03,
+      "validation_accuracy": 88.84711779448622,
+      "fit_seconds": 0.6015958559983119
+    }
+  ],
+  "selected": {
+    "kind": "cosine",
+    "regularization": 0.03,
+    "validation_accuracy": 89.59899749373433,
+    "fit_seconds": 0.2186246819983353
+  },
+  "asset_bytes": 1063686,
+  "total_wall_seconds": 13.637170832000265,
+  "test_accessed": false
+}

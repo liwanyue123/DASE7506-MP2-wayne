@@ -3,5 +3,6 @@ __pycache__/
 .venv/
 venv/
 runs/
+tmp/
 .DS_Store
 Thumbs.db

@@ -1,0 +1,16 @@
+{
+  "version": "cleanroom-v1",
+  "seed": 7506,
+  "modes": [
+    "raw",
+    "descriptors"
+  ],
+  "weights": [
+    0.6666666666666666,
+    0.3333333333333333
+  ],
+  "support_bonus": 0.1,
+  "validation_accuracy": 93.85964912280701,
+  "fit_split": "train",
+  "selection_split": "validation"
+}

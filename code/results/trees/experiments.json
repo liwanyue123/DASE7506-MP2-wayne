@@ -1,0 +1,59 @@
+{
+  "seed": 7536,
+  "fit_split": "train",
+  "selection_split": "validation",
+  "feature_dimensions": 340,
+  "hard_train_questions": 2114,
+  "internal_fit_questions": 1690,
+  "internal_dev_questions": 424,
+  "experiments": [
+    {
+      "name": "pairlogit_d4",
+      "objective": "PairLogit",
+      "depth": 4,
+      "l2": 20.0,
+      "iterations": 1006,
+      "validation_accuracy": 92.35588972431079,
+      "fit_seconds": 41.70034706778824
+    },
+    {
+      "name": "pairlogit_d6",
+      "objective": "PairLogit",
+      "depth": 6,
+      "l2": 40.0,
+      "iterations": 636,
+      "validation_accuracy": 91.60401002506265,
+      "fit_seconds": 42.38431579992175
+    },
+    {
+      "name": "pairlogit_d8",
+      "objective": "PairLogit",
+      "depth": 8,
+      "l2": 80.0,
+      "iterations": 651,
+      "validation_accuracy": 92.35588972431079,
+      "fit_seconds": 92.57034676335752
+    },
+    {
+      "name": "logloss_d4",
+      "objective": "Logloss",
+      "depth": 4,
+      "l2": 20.0,
+      "iterations": 589,
+      "validation_accuracy": 91.60401002506265,
+      "fit_seconds": 15.5717863868922
+    },
+    {
+      "name": "logloss_d6",
+      "objective": "Logloss",
+      "depth": 6,
+      "l2": 40.0,
+      "iterations": 704,
+      "validation_accuracy": 91.47869674185463,
+      "fit_seconds": 33.41899358481169
+    }
+  ],
+  "total_wall_seconds": 236.58285783790052,
+  "test_accessed": false,
+  "gpu_used": false
+}
